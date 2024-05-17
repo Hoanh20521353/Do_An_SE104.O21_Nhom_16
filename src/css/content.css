@@ -1,0 +1,25 @@
+.content {
+  flex-grow: 1;
+}
+
+.function-list {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.98);
+  border-bottom: 0.1px solid #ccc;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.1);
+  height: 80px;
+}
+.function-item {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-body {
+  /* background-color: rgb(94, 80, 80); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
